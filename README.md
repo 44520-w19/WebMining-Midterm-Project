@@ -1,16 +1,22 @@
 #readme.md file
-Web mine ('doocs/advanced-java') repo on github. Create a list of 20 stargazers. Check those stargazers repos and find
-out what type of programming languages they use. Find the percent of other languages used compared to java. Create a graph
-and show the connections.
+Question: Who uses more diverse programming languages
+People whose main language is Java or C?
+Assuming that the people who contributed to the Java repo use Java 
+as their main language and same for C repo.
 
-do the same thing with a C repo.
-compare the percent of different languages used by the stargazers from each repo
+Extract data from a Java repo - 'TheAlgorithms/Java'
+Extract data from a C repo - 'TheAlgorithms/C'
+
+Get a list of contributors from each repo
+Find out what languages those contributors use in their own public repos
+
+Compare each of the contributors languages by creating graphs and pie charts
 
 Python modules
 Pygithub
+Matplotlib.pyplot
 Networkx
 Pickle
-
 
 
 [GitHub](https://github.com/44520-w19)
